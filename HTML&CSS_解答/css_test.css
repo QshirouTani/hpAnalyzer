@@ -1,0 +1,173 @@
+body {
+	margin-top:100px;
+	border-style:solid;
+	border-width:1px;
+	border-color:gray;
+	background-color:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	width:750px;
+}
+
+/*ヘッダー設定*/
+#header {
+	background-color:#ffffff;
+	color:#000000;
+	width:750px;
+	height:70px;
+	position:relative;
+
+}
+
+.title1 {
+	position: absolute;
+	top: -10px;
+	left: 25px;
+	position:absolute;
+}
+
+hr {
+	width:96%;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:55px;
+	height:0.1px;
+	border-color:#ffffff;
+	position:absolute;
+}
+
+/*左枠設定*/
+#left{
+	float:left;
+	border-style:solid;
+	border-width:1px;
+	border-color:#cccccc;
+	background-color:#003399;
+	color:#FFFFFF;
+	top:0px;
+	left:15px;
+	width:190px;
+	height:145px;
+	position:relative;
+}
+
+.left_title{
+    top:7px;
+	left:10px;
+	font-size:100%;
+	font-style:normal;
+	position:absolute;
+}
+
+
+.list{
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-color:#cccccc;
+	background-color:#ffffff;
+	color:#FFFFFF;
+	top:10%;
+	left:0px;
+	width:79%;
+	height:80%;
+	position:absolute;
+
+}
+
+
+li.list_style{
+	margin-top:5px;
+	margin-bottom:10px;
+	margin-left:-20px;
+	color:#000000;
+}
+
+.font_style{
+	color:#999999;
+	font-size:95%;
+}
+
+a{
+	color:#999999;
+	font-style:normal;
+	text-decoration:underline;
+}
+
+
+/*右枠設定*/
+#right{
+	background-color:#003399;
+	color:#000000;
+	margin-top:0px;
+	margin-left:230px;
+	width:510px;
+	height:145px;
+	position:relative;
+
+}
+
+h1 {
+	position:absolute;
+	background-color:#ffffff;
+	width:500px;
+	height:auto;
+	margin-top:0px;
+	margin-left:10px;
+
+}
+
+#right_title_box{
+	position:absolute;
+	background-color:#ffffff;
+	width:510px;
+	height:150px;
+	margin-top:30px;
+	margin-left:0px;
+}
+
+.text_margi1{
+	margin-top:5px;
+	margin-left:0px;
+	font-size:90%;
+}
+
+.text_margi2{
+	margin-top:40px;
+	margin-left:0px;
+	font-size:120%;
+	color:#999999;
+	font-weight:bold;
+}
+
+.text_margi3{
+	margin-top:20px;
+	margin-left:80px;
+	font-size:90%;
+	letter-spacing:0.5px;
+	color:#999999;
+}
+
+/*フッター設定*/
+#futter{
+	background-color:#FFFFFF;
+	color:#000000;
+	margin-top:35px;
+	width:750px;
+	height:95px;
+	text-align:center;
+	position:relative;
+}
+
+.futter_text{
+	/*margin-left:-30px;*/
+	font-size:80%;
+	margin-bottom:5px;
+	position:absolute;
+	margin-left:45%;
+	bottom:0;
+
+}
+
+
+
+
